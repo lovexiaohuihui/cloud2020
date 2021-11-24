@@ -1,0 +1,25 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  # git  作为配置中心
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lovexiaohuihui/springcloud-config.git
+          search-paths:
+            - springcloud-config # git 仓库名称
+      label: master # 分支
+
+eureka:
+  client:
+    # false 表示不向注册中心注册自己
+    register-with-eureka: true
+    # false 表示自己就是注册中心，职责就是维护服务实例，并不需要去检索服务
+    fetch-registry: true
+    service-url:
+    # 设置 eureka 访问地址
+      # defaultZone: http://localhost:7001/eureka/  # 单机版
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/ # 集群版
