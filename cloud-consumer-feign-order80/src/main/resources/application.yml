@@ -1,0 +1,36 @@
+server:
+  port: 80
+spring:
+  application:
+    name: cloud-consumer-order
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource # 当前数据源操作类型
+    driver-class-name: com.mysql.jdbc.Driver # mysql 驱动包
+    url: jdbc:mysql://localhost:3306/cloud2020?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&serverTimezone=GMT%2b8&useSSL=false
+    username: root
+    password: 123456
+
+mybatis:
+  mapper-locations: classpath:mapper/*
+  type-aliases-package: com.bochao.entity  # entity 所在地址
+
+eureka:
+  client:
+    # false 表示不向注册中心注册自己
+    register-with-eureka: false
+    # false 表示自己就是注册中心，职责就是维护服务实例，并不需要去检索服务
+    fetch-registry: true
+    service-url:
+    # 设置 eureka 访问地址
+      # defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+# 设置feign客户端超时时间（openfign 默认支持 ribbon）
+ribbon:
+  # 建立连接所用的时间
+  ReadTimeout: 5000
+  # 建立连接后从服务器读取到可用资源所用时间
+  ConnectTimeout: 5000
+# 日志级别控制
+logging:
+  level:
+    com.bochao.feign.OpenFeignService: DEBUG

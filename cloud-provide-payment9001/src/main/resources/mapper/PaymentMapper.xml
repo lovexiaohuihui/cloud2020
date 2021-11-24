@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bochao.dao.PaymentDao">
+
+    <resultMap id="BaseResultMap" type="com.bochao.entity.Payment">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="order_code" property="orderCode" jdbcType="VARCHAR"/>
+    </resultMap>
+    
+    <sql id="Base_Column_List">
+        id, order_code
+    </sql>
+
+    <!--插入单条-->
+    <insert id="addPayment" parameterType="Payment">
+      insert into payment (id, order_code) values (#{id, jdbcType=VARCHAR}, #{orderCode, jdbcType=VARCHAR})
+    </insert>
+
+    <!--查询数据-->
+    <select id="getPaymentById" parameterType="string" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from payment
+        where id = #{id, jdbcType=VARCHAR}
+    </select>
+</mapper>
