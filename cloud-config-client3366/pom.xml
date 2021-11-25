@@ -9,8 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>cloud-config-client3355</artifactId>
-
+    <artifactId>cloud-config-client3366</artifactId>
 
     <dependencies>
         <!--lombok-->
@@ -43,4 +42,5 @@
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
     </dependencies>
+
 </project>

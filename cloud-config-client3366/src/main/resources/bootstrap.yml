@@ -1,24 +1,21 @@
 server:
-  port: 3344
+  port: 3366
 spring:
   application:
-    name: cloud-config-center
-  # git  作为配置中心
+    name: cloud-config-client
+  # git 配置中心  http://localhost:3344/master/application-dev.yml
   cloud:
     config:
-      server:
-        git:
-          uri: https://github.com/lovexiaohuihui/springcloud-config.git
-          search-paths:
-            - springcloud-config # git 仓库名称
-      label: master # 分支
+      label: master
+      name: application
+      profile: dev
+      uri: http://localhost:3344
   # rabbitmq相关配置
   rabbitmq:
     host: localhost
     port: 5672
     username: guest
     password: guest
-
 eureka:
   client:
     # false 表示不向注册中心注册自己
@@ -34,4 +31,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: "bus-refresh" # curl -X POST "http://localhost:3344/actuator/bus-refresh"
+        include: "*"

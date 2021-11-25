@@ -10,6 +10,7 @@
         <module name="api-cloud-commons" />
         <module name="cloud-config-center3344" />
         <module name="cloud-config-client3355" />
+        <module name="cloud-config-client3366" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-consumer-hystrix-dashboard6001" />
@@ -34,6 +35,7 @@
       <module name="api-cloud-commons" target="1.8" />
       <module name="cloud-config-center3344" target="1.8" />
       <module name="cloud-config-client3355" target="1.8" />
+      <module name="cloud-config-client3366" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />
       <module name="cloud-consumer-hystrix-dashboard6001" target="1.8" />
