@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/api-cloud-commons/api-cloud-commons.iml" filepath="$PROJECT_DIR$/api-cloud-commons/api-cloud-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" filepath="$PROJECT_DIR$/cloud-config-center3344/cloud-config-center3344.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" filepath="$PROJECT_DIR$/cloud-config-client3355/cloud-config-client3355.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" filepath="$PROJECT_DIR$/cloud-config-client3366/cloud-config-client3366.iml" />
@@ -20,6 +19,9 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment9002/cloud-provide-payment9002.iml" filepath="$PROJECT_DIR$/cloud-provide-payment9002/cloud-provide-payment9002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment9004/cloud-provide-payment9004.iml" filepath="$PROJECT_DIR$/cloud-provide-payment9004/cloud-provide-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment9006/cloud-provide-payment9006.iml" filepath="$PROJECT_DIR$/cloud-provide-payment9006/cloud-provide-payment9006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/cloud-stream-rabbitmq-consumer8002.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/cloud-stream-rabbitmq-consumer8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
     </modules>
   </component>
