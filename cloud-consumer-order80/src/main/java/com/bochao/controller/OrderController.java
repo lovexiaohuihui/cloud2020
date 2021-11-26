@@ -40,11 +40,11 @@ public class OrderController {
         }
     }
 
-    @GetMapping(value = "/getPaymentById")
-    public Object getPaymentById(String id) {
+    @GetMapping(value = "/getPaymentById/{id}")
+    public Object getPaymentById(@PathVariable("id") String id) {
         try {
             log.info("开始查询订单");
-            return restTemplate.getForObject(PAYMENT_URL + "/payment/getPaymentById?id=" + id, Result.class);
+            return restTemplate.getForObject(PAYMENT_URL + "/payment/getPaymentById/id=" + id, Result.class);
         } catch (Exception e) {
             e.printStackTrace();
             return new Result("111", "查询失败", null);

@@ -42,7 +42,7 @@ ribbon:
 logging:
   level:
     com.bochao.feign.OpenFeignService: DEBUG
-# 开启 hystrix
+# feign 开启 hystrix
 feign:
   hystrix:
     enabled: true
