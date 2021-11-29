@@ -23,6 +23,10 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-oreder83/cloudalibaba-consumer-oreder83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-oreder83/cloudalibaba-consumer-oreder83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-nacos-config-client3377/cloudalibaba-nacos-config-client3377.iml" filepath="$PROJECT_DIR$/cloudalibaba-nacos-config-client3377/cloudalibaba-nacos-config-client3377.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9011/cloudalibaba-provide-payment9011.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9011/cloudalibaba-provide-payment9011.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9012/cloudalibaba-provide-payment9012.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9012/cloudalibaba-provide-payment9012.iml" />
     </modules>
   </component>
 </project>

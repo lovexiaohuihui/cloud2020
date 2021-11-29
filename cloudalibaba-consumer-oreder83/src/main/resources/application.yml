@@ -1,0 +1,12 @@
+server:
+  port: 83
+spring:
+  application:
+    name: cloud-nacos-consumer
+  # nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+server-url:
+  nacos-payment-server: http://cloud-nacos-payment

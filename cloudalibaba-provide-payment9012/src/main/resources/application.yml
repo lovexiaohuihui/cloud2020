@@ -1,0 +1,16 @@
+server:
+  port: 9012
+spring:
+  application:
+    name: cloud-nacos-payment
+  # nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+# 暴漏所有服务
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
