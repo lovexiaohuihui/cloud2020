@@ -1,0 +1,17 @@
+server:
+  port: 9022
+spring:
+  application:
+    name: cloud-sentinal-provide
+  # nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        # server-addr: 192.168.110.228:1111
+# 暴漏所有服务
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

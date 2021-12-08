@@ -16,9 +16,30 @@ spring:
         # 默认8719 端口，假如被占用 8719依次+1
         port: 8719
       web-context-unify: false # false 关闭url path  聚合 可根据不同url进行链路限流
+      # 持久化进nacos
+      datasource:
+        ds1:
+          nacos:
+            server-addr: localhost:8848
+            dataId: cloud-sentinel-service
+            groupId: DEFAULT_GROUP
+            data-type: json
+            rule-type: flow
 # 暴漏所有服务
 management:
   endpoints:
     web:
       exposure:
         include: "*"
+#  nacos 配置
+#[
+#    {
+#        "resource": "/sentinal/testA", // 资源名称
+#        "limitApp": "default",  // 来源应用
+#        "grade": 1, // 阈值类型 0 表示线程数 1 表示qps
+#        "count": 2, // 单机阈值
+#        "strategy": 0, // 流程模式 0 表示直接 1表示关联 2表示链路
+#        "controlBehavior": 0, // 流程效果 0表示快速失败 1表示Warm Up. 2表示排队等待
+#        "clusterMode": false // 是否集群
+#    }
+#]

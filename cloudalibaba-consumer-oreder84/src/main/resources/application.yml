@@ -1,0 +1,28 @@
+server:
+  port: 84
+spring:
+  application:
+    name: cloud-sentinel-consumer
+  # nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+        # server-addr: 192.168.110.228:1111
+    sentinel:
+      transport:
+        # 配置 sentinel dashboard 地址
+        dashboard: localhost:8080
+        # 默认8719 端口，假如被占用 8719依次+1
+        port: 8719
+      web-context-unify: false # false 关闭url path  聚合 可根据不同url进行链路限流
+# 暴漏所有服务
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+# 激活 sentinal 对feign支持
+feign:
+  sentinel:
+    enabled: true
