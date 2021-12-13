@@ -24,9 +24,16 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020.iml" filepath="$PROJECT_DIR$/cloud2020.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-oreder83/cloudalibaba-consumer-oreder83.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-oreder83/cloudalibaba-consumer-oreder83.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-consumer-oreder84/cloudalibaba-consumer-oreder84.iml" filepath="$PROJECT_DIR$/cloudalibaba-consumer-oreder84/cloudalibaba-consumer-oreder84.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-nacos-config-client3377/cloudalibaba-nacos-config-client3377.iml" filepath="$PROJECT_DIR$/cloudalibaba-nacos-config-client3377/cloudalibaba-nacos-config-client3377.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9011/cloudalibaba-provide-payment9011.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9011/cloudalibaba-provide-payment9011.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9012/cloudalibaba-provide-payment9012.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9012/cloudalibaba-provide-payment9012.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9021/cloudalibaba-provide-payment9021.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9021/cloudalibaba-provide-payment9021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-provide-payment9022/cloudalibaba-provide-payment9022.iml" filepath="$PROJECT_DIR$/cloudalibaba-provide-payment9022/cloudalibaba-provide-payment9022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloudalibaba-sentinel-service8401/cloudalibaba-sentinel-service8401.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" filepath="$PROJECT_DIR$/seata-account-service2003/seata-account-service2003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" filepath="$PROJECT_DIR$/seata-order-service2001/seata-order-service2001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" filepath="$PROJECT_DIR$/seata-storage-service2002/seata-storage-service2002.iml" />
     </modules>
   </component>
 </project>

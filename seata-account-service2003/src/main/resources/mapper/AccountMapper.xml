@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bochao.dao.AccountDao">
+
+    <resultMap id="BaseResultMap" type="com.bochao.domain.Account">
+        <id column="id" property="id" jdbcType="VARCHAR"/>
+        <result column="user_id" property="userId" jdbcType="VARCHAR"/>
+        <result column="total" property="total" jdbcType="DOUBLE"/>
+        <result column="used" property="used" jdbcType="DOUBLE"/>
+        <result column="residue" property="residue" jdbcType="DOUBLE"/>
+    </resultMap>
+    
+    <sql id="Base_Column_List">
+        id, user_id, total, used, residue
+    </sql>
+
+    <!--根据用户id查询数据-->
+    <select id="getAccountByUserId" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from t_account
+        where user_id = #{userId}
+    </select>
+
+    <!--扣钱-->
+    <update id="deductMoney" parameterType="com.bochao.domain.Account">
+        update t_account
+        set used = #{used}, residue = #{residue}
+        where user_id = #{userId}
+    </update>
+</mapper>

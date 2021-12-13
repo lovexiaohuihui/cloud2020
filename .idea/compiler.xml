@@ -27,13 +27,21 @@
         <module name="cloud-provide-payment9002" />
         <module name="cloud-provide-payment9004" />
         <module name="cloud-provide-payment9006" />
+        <module name="cloud-storage-service2002" />
         <module name="cloud-stream-rabbitmq-consumer8002" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-strenm-rabbitmq-provider8801" />
         <module name="cloudalibaba-consumer-oreder83" />
+        <module name="cloudalibaba-consumer-oreder84" />
         <module name="cloudalibaba-nacos-config-client3377" />
         <module name="cloudalibaba-provide-payment9011" />
         <module name="cloudalibaba-provide-payment9012" />
+        <module name="cloudalibaba-provide-payment9021" />
+        <module name="cloudalibaba-provide-payment9022" />
+        <module name="cloudalibaba-sentinel-service8401" />
+        <module name="seata-account-service2003" />
+        <module name="seata-order-service2001" />
+        <module name="seata-storage-service2002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -59,14 +67,22 @@
       <module name="cloud-provide-payment9002" target="1.8" />
       <module name="cloud-provide-payment9004" target="1.8" />
       <module name="cloud-provide-payment9006" target="1.8" />
+      <module name="cloud-storage-service2002" target="1.8" />
       <module name="cloud-stream-rabbitmq-consumer8002" target="1.8" />
       <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />
       <module name="cloud-strenm-rabbitmq-provider8801" target="1.8" />
       <module name="cloud2020" target="1.8" />
       <module name="cloudalibaba-consumer-oreder83" target="1.8" />
+      <module name="cloudalibaba-consumer-oreder84" target="1.8" />
       <module name="cloudalibaba-nacos-config-client3377" target="1.8" />
       <module name="cloudalibaba-provide-payment9011" target="1.8" />
       <module name="cloudalibaba-provide-payment9012" target="1.8" />
+      <module name="cloudalibaba-provide-payment9021" target="1.8" />
+      <module name="cloudalibaba-provide-payment9022" target="1.8" />
+      <module name="cloudalibaba-sentinel-service8401" target="1.8" />
+      <module name="seata-account-service2003" target="1.8" />
+      <module name="seata-order-service2001" target="1.8" />
+      <module name="seata-storage-service2002" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

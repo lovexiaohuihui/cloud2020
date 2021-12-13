@@ -36,6 +36,12 @@
         <module>cloudalibaba-consumer-oreder83</module>
         <module>cloudalibaba-nacos-config-client3377</module>
         <module>cloudalibaba-sentinel-service8401</module>
+        <module>cloudalibaba-provide-payment9021</module>
+        <module>cloudalibaba-provide-payment9022</module>
+        <module>cloudalibaba-consumer-oreder84</module>
+        <module>seata-order-service2001</module>
+        <module>seata-storage-service2002</module>
+        <module>seata-account-service2003</module>
     </modules>
 
     <!--统一管理jar包版本-->
@@ -79,7 +85,8 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>2.1.2.RELEASE</version>
+                <!--<version>2.1.2.RELEASE</version>-->
+                <version>2.1.0.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
