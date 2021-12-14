@@ -27,6 +27,7 @@
         <module name="cloud-provide-payment9002" />
         <module name="cloud-provide-payment9004" />
         <module name="cloud-provide-payment9006" />
+        <module name="cloud-snowflake" />
         <module name="cloud-storage-service2002" />
         <module name="cloud-stream-rabbitmq-consumer8002" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
@@ -67,6 +68,7 @@
       <module name="cloud-provide-payment9002" target="1.8" />
       <module name="cloud-provide-payment9004" target="1.8" />
       <module name="cloud-provide-payment9006" target="1.8" />
+      <module name="cloud-snowflake" target="1.8" />
       <module name="cloud-storage-service2002" target="1.8" />
       <module name="cloud-stream-rabbitmq-consumer8002" target="1.8" />
       <module name="cloud-stream-rabbitmq-consumer8803" target="1.8" />

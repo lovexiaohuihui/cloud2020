@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment9002/cloud-provide-payment9002.iml" filepath="$PROJECT_DIR$/cloud-provide-payment9002/cloud-provide-payment9002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment9004/cloud-provide-payment9004.iml" filepath="$PROJECT_DIR$/cloud-provide-payment9004/cloud-provide-payment9004.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-provide-payment9006/cloud-provide-payment9006.iml" filepath="$PROJECT_DIR$/cloud-provide-payment9006/cloud-provide-payment9006.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-snowflake/cloud-snowflake.iml" filepath="$PROJECT_DIR$/cloud-snowflake/cloud-snowflake.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/cloud-stream-rabbitmq-consumer8002.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/cloud-stream-rabbitmq-consumer8002.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" filepath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803/cloud-stream-rabbitmq-consumer8803.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" filepath="$PROJECT_DIR$/cloud-strenm-rabbitmq-provider8801/cloud-strenm-rabbitmq-provider8801.iml" />
