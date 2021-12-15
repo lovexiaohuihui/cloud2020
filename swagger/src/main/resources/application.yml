@@ -1,0 +1,8 @@
+
+server:
+  port: 2021
+spring:
+  application:
+    name: swagger
+  profiles:
+    active: dev # 部署环境

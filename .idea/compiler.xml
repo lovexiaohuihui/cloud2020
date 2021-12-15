@@ -43,6 +43,7 @@
         <module name="seata-account-service2003" />
         <module name="seata-order-service2001" />
         <module name="seata-storage-service2002" />
+        <module name="swagger" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -85,6 +86,7 @@
       <module name="seata-account-service2003" target="1.8" />
       <module name="seata-order-service2001" target="1.8" />
       <module name="seata-storage-service2002" target="1.8" />
+      <module name="swagger" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
